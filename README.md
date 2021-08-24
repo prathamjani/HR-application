@@ -1,15 +1,6 @@
-# HR-application
-
-
-DBS211
-
 # **Database Application Development**
 
-# **Assignment**
-
-**FINAL SUBMISSION**
-
-**Milestone 2 (15%)**
+# HR-application
 
 # **Objective:**
 
