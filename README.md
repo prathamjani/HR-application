@@ -77,7 +77,7 @@ The new employee is added successfully.
 
 
 
-**void insertEmployee(Connection *conn, struct Employee emp);**
+**void insertEmployee(Connection \*conn, struct Employee emp);**
 
 This function receives an OCCI pointer (a reference variable to an Oracle database) and a variable of type Employee and inserts the given employee information stored in the parameter **emp** to the employees table.
 
@@ -178,7 +178,7 @@ An employee with the same employee number exists.
 
 
 
-**void updateEmployee(Connection *conn,  int employeeNumber);**
+**void updateEmployee(Connection \*conn,  int employeeNumber);**
 
 Before you call **updateEmployee()**, get the employee number from the user.
 
@@ -244,7 +244,7 @@ The employee with ID 1000 does not exist.
 
 
 
-**void deleteEmployee(_Connection *conn, int employeeNumber);**
+**void deleteEmployee(Connection \*conn, int employeeNumber);**
 
 Before you call **deleteEmployee()**, get the employee number from the user.
 
